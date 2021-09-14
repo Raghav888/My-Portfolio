@@ -42,7 +42,6 @@ body {
 .sec-link {
     color: var(--primary-color);
     border-radius: 0.5rem;
-    padding-bottom: 10px;
     border: 1px solid var(--primary-color);
 }
 
@@ -66,6 +65,16 @@ hr {
     padding: 1rem;
     width: 100%;
     border-bottom-left-radius: 1 rem;
+}
+
+.project-details {
+    border-radius: 15px;
+    border: 1px solid black;
+    padding-left: 10px;
+    border-top-width: 1px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-top: 10px;
 }
 
 .navigation .link {
@@ -137,4 +146,8 @@ hr {
 
 .footer ul li {
     padding-bottom: 10px;
+}
+
+.text-me {
+    text-align: center;
 }
