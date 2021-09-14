@@ -62,7 +62,10 @@ hr {
 .navigation {
     background-color: #8A2BE2;
     color: white;
-    
+        padding-top: 5px;
+    padding-right: 5px;
+    padding-left: 3px;
+    padding-bottom: 10px;
     width: 100%;
     border-bottom-left-radius: 1 rem;
 }
