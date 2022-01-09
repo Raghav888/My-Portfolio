@@ -24,17 +24,15 @@
     </nav>
     <section class="section">
         <div class="conatiner container-center">
-            <h2>Home Automation</h2>
+            <h2>JS is Compiler or Interpreter Language</h2>
             <div class="project-details">
 
-                <p>In this world of expensive and complicated automation systems, such as home automation, cabin automation, room automation and so on, we need a more reliable, user-friendly and more efficient system. We came up with an automation system
-                    that uses raspberry pi, a mini-computer, which is more efficient rather than any microcontroller.</p>
-                <p>Automation is the process of controlling appliances automatically using various system . Electrical and electronic appliances such as fans, lights, outdoor lights, doors etc. can be controlled using various control techniques. In the olden
-                    days, complex circuitry used to be used for turning on the appliances. In era of advancing technology, solution for things or let’s say the complex circuitry became simple and user-friendly which led to fewer human interventions, therefore
-                    we call it an automation system. To replace these things, we came up with new hardware’s which are being developed using small components of electronics and hence automating the systems.</p>
-                <p>In every industry nowadays we see more work of machines than humans, this reduces cost, labour and is more secure and efficient. Once a system is automated and is maintained properly, it can be prolonged and further evolved. </p>
-                <p>In this Covid Situation, such a system can help a lot for maintaining social distance. More Work and research can help to build more innovative solutions. Engineering is concerned with understanding and controlling the materials and forces
-                    of nature for the benefit of humankind. Therefore there exists systems which is called smart which operate in specific conditions and also predict the suitable output hence implementing it.</p>
+                <p>First, we should know the phases in the JS Engine. That will help us to understand whether JS is a Compiler or Interpreter Language. </p>
+                <p>There are 4 phases in JS Engine - CodeInput, Parsing, Compilation and Execution.
+                Initially JS Engine was an Interpreter language but modern browsers use both Compiler and Interpreter togetherly. As JS engine uses Interpreter and Compiler at sametime, JS is Just in time (JIT) Compilation language.  We need to deep dive in the Compilation phase and Execution phase, to understand how it is both Interpreter and Compiler. Compilation Phase and Execution phases goes hand in hand. The parsing phase provides an Abstract Syntax tree (AST) as input to the Compilation phase.  
+                   The compilation phase converts the AST into byte code with help of Interpreter and sends it to the Execution phase. While Interpreter goes line by line of code to convert it into byte code at the same time the compiler tries to optimize the code as much as it can. In this way, JS use both Compiler and Interpreter.</p>
+                <p>In some modern JS Engine, there is AOT compilation. In which the compiler and Interpreter already does its work on code and its output will be executed later on. </p>
+
             </div>
         </div>
     </section>
