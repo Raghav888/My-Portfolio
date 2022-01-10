@@ -29,10 +29,10 @@
 
                 <p>First, we should know the phases in the JS Engine. That will help us to understand whether JS is a Compiler or Interpreter Language. </p>
                 <p>There are 4 phases in JS Engine - CodeInput, Parsing, Compilation and Execution.</p>
-                <p>Initially JS Engine was an Interpreter language but modern browsers use both Compiler and Interpreter togetherly. As JS engine uses Interpreter and Compiler at sametime, JS is Just in time (JIT) Compilation language.  We need to deep dive in the Compilation phase and Execution phase, to understand how it is both Interpreter and Compiler. Compilation Phase and Execution phases goes hand in hand. </p>
+                <p>JS engine uses Interpreter and Compiler at sametime, so JS is Just in time (JIT) Compilation language.  We need to deep dive in the Compilation phase and Execution phase, to understand how it is both Interpreter and Compiler. Compilation Phase and Execution phases goes hand in hand. </p>
                 <p>The parsing phase provides an Abstract Syntax tree (AST) as input to the Compilation phase.  
                    The compilation phase converts the AST into byte code with help of Interpreter and sends it to the Execution phase. While Interpreter goes line by line of code to convert it into byte code at the same time the compiler tries to optimize the code as much as it can. In this way, JS use both Compiler and Interpreter. This combination helps to boost its speeds and efficieny. And this is the reason for confusion, whether it is Compiler or Interpreter Language. We can say it is hybrid but JS needs JS engine to get executed, this is what Interpreter language requires. And one more thing that should be noted is that JIT is not full fledged compiler, it compiles before execution phase. </p>
-                <p>And JIT was introduced by Mozilla and Google for performance and other benefits in browsers. So, according to me JS is Interpreter Language.</p>
+                <p>And JIT was introduced by Mozilla and Google for performance and other benefits in browsers. Initially JS Engine was an Interpreter language but modern browsers use both Compiler and Interpreter togetherly. So, according to me JS is Interpreter Language.</p>
                 <p>In some modern JS Engine, there is AOT compilation. In which the Compiler and Interpreter already does its work on code and its output will be executed later on. </p>
 
             </div>
