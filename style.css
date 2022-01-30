@@ -1,5 +1,6 @@
 :root {
-    --primary-color: #101010;
+    --primary-color: #1299d3;
+;
 }
 
 body {
@@ -60,7 +61,7 @@ hr {
 }
 
 .navigation {
-    background-color: #101010;
+    background-color: #1299d3;
     color: white;
         padding-top: 5px;
     padding-right: 5px;
@@ -126,7 +127,7 @@ hr {
 }
 
 .footer {
-    background-color: #101010;
+    background-color: #1299d3;
     padding: 2rem;
     margin-top: 20px;
     color: white;
